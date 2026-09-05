@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets and downloader metadata
+/data/raw/*
+!/data/raw/.gitkeep
+
+# OS metadata
+.DS_Store
+Thumbs.db
