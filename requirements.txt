@@ -1,4 +1,10 @@
-pandas
-kagglehub
-jupyterlab
-matplotlib
+# Версии аналитических библиотек из проверенного окружения (Python 3.13.13).
+pandas==3.0.5
+seaborn==0.13.2
+matplotlib==3.10.8
+kagglehub==1.0.2
+ipython==9.16.1
+ipykernel==7.3.0
+
+# Интерфейс для работы с ноутбуком; локальная проверка выполнена через nbclient.
+jupyterlab>=4,<5
